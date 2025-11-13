@@ -1,0 +1,8 @@
+# Copyright (c) 2026 Splitkb.com
+# SPDX-License-Identifier: MIT
+
+zephyr_library_sources_ifdef(CONFIG_SPLITKB_BATTERY_COINCELL coincell_battery.c)
+zephyr_library_sources_ifdef(CONFIG_SPLITKB_BATTERY_LIPO lipo_battery.c)
+
+zephyr_library_sources_ifdef(CONFIG_SPLITKB_BATTERY_LIPO splitkb_battery_common.c)
+zephyr_library_sources_ifdef(CONFIG_SPLITKB_BATTERY_COINCELL splitkb_battery_common.c)

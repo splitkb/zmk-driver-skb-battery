@@ -1,0 +1,2 @@
+zephyr_library_amend()
+add_subdirectory_ifdef(CONFIG_ZMK_BATTERY battery)

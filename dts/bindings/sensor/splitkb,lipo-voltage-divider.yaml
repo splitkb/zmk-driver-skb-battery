@@ -1,0 +1,8 @@
+# Copyright (c) 2026 splitkb.com
+# SPDX-License-Identifier: MIT
+
+description: Lipo battery SoC monitoring using voltage divider
+
+compatible: "splitkb,lipo-voltage-divider"
+
+include: voltage-divider.yaml
